@@ -1,0 +1,29 @@
+{
+  "name": "dajanbrackovic",
+  "version": "1.0.0",
+  "description": "WebApp that describes me:)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbrackovic2/dajanBrackovic.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "nodejs",
+    "express",
+    "about-me"
+  ],
+  "author": "Dajan Brackovic <dbrackovic2@etf.unsa.ba>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbrackovic2/dajanBrackovic/issues"
+  },
+  "homepage": "https://github.com/dbrackovic2/dajanBrackovic#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
