@@ -12,6 +12,8 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+//use middleware to serve static files
+app.use(express.static('public'));
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -39,3 +41,14 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+/*
+const player = require('node-wav-player');
+  player.play({
+    path: 'public/sounds/snimanje1_gitara1_session_2019-01-30_08.12.wav',
+    loop: true
+  }).then(() => {
+    console.log('The wav file started to be played successfully.');
+  }).catch((error) => {
+    console.error(error);
+  });
+*/
